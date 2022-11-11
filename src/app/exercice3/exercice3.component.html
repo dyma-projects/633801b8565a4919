@@ -1,3 +1,13 @@
-<p *ngIf="statut">p1</p>
-<p *ngIf="!statut">p2</p>
-<button (click)="changeStatut()">Change Status</button>
+<p
+  *ngIf="statut"
+  class="p1"
+>p1</p>
+<p
+  *ngIf="!statut"
+  class="p2"
+>p2</p>
+<button
+  (click)="changeStatut()"
+  class="p-10 mb"
+>Change Status
+</button>

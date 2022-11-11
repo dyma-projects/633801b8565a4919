@@ -1,0 +1,16 @@
+button {
+  padding: 0.5rem;
+  background-color: coral;
+  border: none;
+  border-radius: 5px;
+}
+
+.p1 {
+  font-size: 1.8rem;
+  color: chocolate;
+}
+
+.p2 {
+  font-size: 1.8rem;
+  color: darkslateblue;
+}
